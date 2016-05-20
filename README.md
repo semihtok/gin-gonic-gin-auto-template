@@ -2,7 +2,7 @@
 This little code provides to define your templates automatically when system started.
 
 ## Usage
- 1. Create ./templates path then put files in it.
+ 1. Create ./templates path then put template files in it.
  2. Be sure layout page named as "layout.html" 
  3. Add this method in your code 
  
