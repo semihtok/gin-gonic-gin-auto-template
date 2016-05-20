@@ -1,2 +1,5 @@
 # gin-gonic-gin-autotemplate
-This little code provides to add your templates automatically when you create go template file in ./templates path.
+This little code provides to define your templates automatically when system started.
+
+## Usage
+ Create ./templates path then put a files in it.
