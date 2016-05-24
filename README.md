@@ -1,5 +1,5 @@
-[![Go Report Card](https://goreportcard.com/badge/kubernetes/helm)](http://goreportcard.com/report/gin-gonic-gin-autotemplate)
-[![Build Status](https://travis-ci.org/containous/traefik.svg?branch=master)](https://travis-ci.org/semihtok/gin-gonic-gin-autotemplate)
+[![Go Report Card](https://goreportcard.com/badge/semihtok/gin-gonic-gin-autotemplate)](http://goreportcard.com/report/semihtok/gin-gonic-gin-autotemplate)
+[![Build Status](https://travis-ci.org/semihtok/gin-gonic-gin-autotemplate.svg?branch=master)](https://travis-ci.org/semihtok/gin-gonic-gin-autotemplate)
  
 # gin-gonic-gin-autotemplate
 This little code provides to define your templates automatically when system started.
