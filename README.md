@@ -30,7 +30,7 @@ func setHtmlPages(router *gin.Engine) {
 	}
 }
 ```
-
+ 
 and call in main method with gin instance
 
 ``` go
