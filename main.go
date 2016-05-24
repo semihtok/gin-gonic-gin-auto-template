@@ -1,8 +1,11 @@
 package main
 
 import (
+	"net/http"
 	"github.com/gin-gonic/gin"
 	_"html/template"
+	"github.com/gin-gonic/contrib/renders/multitemplate"
+	"io/ioutil"
 )
 
 func main() {
