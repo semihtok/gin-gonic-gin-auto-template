@@ -34,9 +34,19 @@ func setHtmlPages(router *gin.Engine) {
 and call in main method with gin instance
 
 ``` go
+import (
+	"strings"
+	"github.com/gin-gonic/gin"
+	_"html/template"
+	"github.com/gin-gonic/contrib/renders/multitemplate"
+	"io/ioutil"
+)
+
 func main() {
+
 	router := gin.Default()
 	setHtmlPages(router)
+	
 }
 ```
  
