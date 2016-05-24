@@ -1,7 +1,7 @@
 package main
 
 import (
-	"net/http"
+	"strings"
 	"github.com/gin-gonic/gin"
 	_"html/template"
 	"github.com/gin-gonic/contrib/renders/multitemplate"
