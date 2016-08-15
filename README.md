@@ -7,7 +7,8 @@ This little code provides to define your templates automatically when system sta
 ## Usage
  1. Create ./templates path then put template files in it.
  2. Be sure layout page named as "layout.html" 
- 3. Add this method in your code 
+ 3. Add import : "github.com/gin-gonic/contrib/renders/multitemplate"
+ 4. Add this method in your code 
  
 ``` go
 func setHtmlPages(router *gin.Engine) {
@@ -31,7 +32,7 @@ func setHtmlPages(router *gin.Engine) {
 }
 ```
  
-and call in main method with gin instance
+then call method in main method with gin instance
 
 ``` go
 import (
